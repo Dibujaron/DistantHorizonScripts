@@ -1,3 +1,5 @@
+cd ~/repos/DistantHorizonScripts
+git pull
 cd ~/repos/DistantHorizonServer
 git pull
 cd ~/repos/DistantHorizonClient
