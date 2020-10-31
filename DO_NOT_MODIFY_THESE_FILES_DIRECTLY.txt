@@ -1,1 +1,0 @@
-The files in this folder are deleted and overwritten by the build process. Make changes in /config/ instead!
