@@ -1,8 +1,4 @@
-pkill screen
-echo --all screens destroyed--
+./stopAll.sh
 ./updateAndBuildAll.sh
-screen -d -m ./runServer.sh
-echo --server screen initialized--
-screen -d -m ./runWeb.sh
-echo --web screen initialized--
-echo --all services restarted--
+./runAll.sh
+echo --all services updated, built, and restarted--
