@@ -5,7 +5,8 @@ cd ~/web
 cp -r ~/repos/DistantHorizonBalancer/* ~/web/
 ~/scripts/removeGithubFiles.sh
 cp ~/config/balancer.ini ~/web/config.ini
-cp ~/config/lastbuild.txt ~/web/lastbuild.txt
+rm -f ~/web/lastbuild.txt
+date +%s >> ~/web/lastbuild.txt
 cd ~/repos/DistantHorizonClient
 godot --path ~/repos/DistantHorizonClient/project.godot --export Distant-Horizon ~/web/Distant-Horizon.html
 echo --web built--
