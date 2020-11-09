@@ -1,2 +1,2 @@
-cd ~/server/
-java -Xmx4096m -Xms1024m -jar DistantHorizonServer.jar
+screen -S dhserver -d -m ~/scripts/runServerInternal.sh
+echo --server screen started--

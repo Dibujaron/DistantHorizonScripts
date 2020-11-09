@@ -1,2 +1,2 @@
-cd /home/centos/web
-~/scripts/deployGunicorn.sh 80
+screen -S dhweb -d -m ~/scripts/runWebInternal.sh
+echo --web screen started--
