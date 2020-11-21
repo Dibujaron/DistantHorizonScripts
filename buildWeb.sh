@@ -1,4 +1,3 @@
-~/scripts/updateBuildDate.sh
 rm -rf ~/web/*
 cd ~/web
 ~/scripts/makeWarning.sh
