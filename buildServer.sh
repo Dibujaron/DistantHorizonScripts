@@ -1,4 +1,5 @@
 rm -rf ~/server/*
+mkdir ~/server/log
 ~/scripts/makeWarning.sh
 cp ~/repos/DistantHorizonServer/out/artifacts/DistantHorizonServer_jar/DistantHorizonServer.jar ~/server/DistantHorizonServer.jar
 cp -r ~/repos/DistantHorizonServer/shipclasses/ ~/server
